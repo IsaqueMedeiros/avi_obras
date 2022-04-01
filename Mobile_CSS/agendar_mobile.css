@@ -1,0 +1,137 @@
+/* IPHONE XR */
+@media only screen and  (max-width: 414px) {
+  .body{
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+
+  }
+    .container {
+
+      display: grid;
+      background-color: #333438;
+      grid-template: 896px / auto;
+      grid-template-areas:
+        "a1 a1";
+    }
+    .iphoneB{
+      margin-left: 27%;
+    }
+    .HorarioF{
+      display: none;
+    }
+  }
+  /* S20 ULTRA */
+  @media only screen and  (max-width: 412px) {
+    .container {
+      display: grid;
+      background-color: #333438;
+      grid-template: 915px / auto;
+      grid-template-areas:
+        "a1 a1";
+    }
+  
+    .iphoneB{
+      margin-left: 27%;
+      transition: ease all .5s;
+      
+  
+    }
+  
+  
+    .HorarioF{
+      display: none;
+      transition: ease-in all .5s;
+  
+    }
+  
+  }
+  /* PIXEL 5 */
+    @media only screen and  (max-width: 393px) {
+      .container {
+        display: grid;
+        background-color: #333438;
+        grid-template: 851px / auto;
+        grid-template-areas:
+          "a1 a1";
+      }
+      .iphoneB{
+        margin-left: 24%;
+      }
+    }
+  
+  /* IPHONE 12 PRO */
+  @media only screen and  (max-width: 390px) {
+    .body{
+      overflow-x: hidden;
+
+    }
+    .container {
+
+      display: grid;
+      background-color: #333438;
+      grid-template: 844px / auto;
+      grid-template-areas:
+        "a1 a1";
+    }
+    .iphoneB{
+      margin-left: 25%;
+    }
+  }
+  
+  /* IPHONE SE */
+    @media only screen and  (max-width: 375px) {
+    
+      .container {
+
+        display: grid;
+        background-color: #333438;
+        grid-template: 667px / auto;
+        grid-template-areas:
+          "a1 a1";
+      }
+      .iphoneB{
+        margin-left: 25%;
+      }
+    
+    }
+      @media only screen and  (max-width: 360px) {
+        .body{
+          overflow-x: hidden;
+
+        }
+        .container {
+
+          display: grid;
+          background-color: #333438;
+          grid-template: 740px / auto;
+          grid-template-areas:
+            "a1 a1";
+        }
+       
+      }
+      /* GALAXY FOLD */
+      @media only screen and  (max-width: 280px) {
+        .container {
+          display: grid;
+          background-color: #333438;
+          grid-template: 653px / auto;
+          grid-template-areas:
+            "a1 a1";
+        }
+        .iphoneB{
+          margin-left: 16%;
+          transition: ease all .5s;
+          
+      
+        }
+      
+      
+        .HorarioF{
+          display: none;
+          transition: ease-in all .5s;
+      
+        }
+      }
+  
+  
+    
