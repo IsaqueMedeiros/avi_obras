@@ -366,7 +366,7 @@ margin-left: 55px;
     display: grid;
     background-color: #f2f1ec;
     grid-gap: 0px;
-    grid-template: 839px 800px  550px / auto auto auto auto;
+    grid-template: 839px 800px  700px / auto auto auto auto;
     grid-template-areas:
       
       "a1 a1 a1 a1 a1"
@@ -405,7 +405,7 @@ margin-left: 55px;
     grid-area: a3;
     background-color: #EDEDED;
     box-shadow: inset 0px 0px 0px 600px rgba(0, 0, 0, .0);
-    background-image: url('../fotos/linhabk.png');
+    background-image: url('../fotos/sea_view.jpeg');
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size:cover;
