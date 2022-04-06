@@ -1,0 +1,198 @@
+body{
+    overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+  
+    }
+    /* IPHONE XR */
+  @media only screen and  (max-width: 414px) {
+    .container {
+      display: grid;
+      background-color: #333438;
+      grid-template: 1100px 1600px 700px / auto auto auto ;
+      grid-template-areas:
+        "a1 a1 a1 a1 a1 "
+        "a3 a3 a3 a3 a3 "
+        "a2 a2 a2 a2 a2 ";
+    }
+    
+    
+     /* Grid 1 */
+     .textos_primeirogrid{
+       margin-top: 00px;
+       margin-left: -40%;
+     }
+     .para_casa{
+       max-width: 300px;
+       font-size: 21px;
+     }
+  
+     .section_info{
+       height: 700px;
+        width: 414px;
+     }
+      } 
+      
+    
+    /* S20 ULTRA */
+    @media only screen and  (max-width: 412px) {
+      .container {
+        display: grid;
+        background-color: #333438;
+        grid-template: 1100px 1600px 700px / auto auto auto ;
+        grid-template-areas:
+          "a1 a1 a1 a1 a1 "
+          "a3 a3 a3 a3 a3 "
+          "a2 a2 a2 a2 a2 ";
+      }
+      
+      
+       /* Grid 1 */
+       .textos_primeirogrid{
+         margin-top: 00px;
+         margin-left: -35%;
+       }
+       .para_casa{
+         max-width: 300px;
+         font-size: 21px;
+       }
+       /* Grid 2 */
+       .section_info{
+        height: 700px;
+         width: 412px;
+      }
+   }
+    
+     
+    
+    
+    /* PIXEL 5 */
+      @media only screen and  (max-width: 393px) {
+        .container {
+          display: grid;
+          background-color: #333438;
+          grid-template: 1100px 1600px 700px / auto auto auto ;
+          grid-template-areas:
+            "a1 a1 a1 a1 a1 "
+            "a3 a3 a3 a3 a3 "
+            "a2 a2 a2 a2 a2 ";
+        }
+        .section_info{
+          height: 700px;
+           width: 393px;
+        }
+      }
+    
+    /* IPHONE 12 PRO */
+    @media only screen and  (max-width: 390px) {
+      .container {
+        display: grid;
+        background-color: #333438;
+        grid-template: 1100px 1600px 700px / auto auto auto ;
+        grid-template-areas:
+          "a1 a1 a1 a1 a1 "
+          "a3 a3 a3 a3 a3 "
+          "a2 a2 a2 a2 a2 ";
+      }
+      .section_info{
+        height: 700px;
+         width: 390px;
+      }
+  } 
+    
+  @media only screen and  (max-width: 375px) {
+
+    /* IPHONE SE */
+    .container {
+      display: grid;
+      background-color: #333438;
+      grid-template: 1100px 1600px 700px / auto auto auto ;
+      grid-template-areas:
+        "a1 a1 a1 a1 a1 "
+        "a3 a3 a3 a3 a3 "
+        "a2 a2 a2 a2 a2 ";
+    }
+    
+        
+         /* Grid 1 */
+         .textos_primeirogrid{
+           margin-top: 00px;
+           margin-left: -35%;
+         }
+         .para_casa{
+           max-width: 300px;
+           font-size: 20px;
+         }
+         /* Grid 2 */
+         .section_info{
+          height: 700px;
+           width: 375px;
+        }
+  
+      }
+  
+  
+      /* Samsung s8+ */
+        @media only screen and  (max-width: 360px) {
+          .container {
+            display: grid;
+            background-color: #333438;
+            grid-template: 1100px 1600px 700px / auto auto auto ;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 "
+              "a3 a3 a3 a3 a3 "
+              "a2 a2 a2 a2 a2 ";
+          }
+          
+          
+           /* Grid 1 */
+           .textos_primeirogrid{
+             margin-top: 00px;
+             margin-left: -38%;
+           }
+           .para_casa{
+             max-width: 300px;
+             font-size: 20px;
+           }
+           /* Grid 2 */
+           .section_info{
+            height: 700px;
+             width: 360px;
+          }
+     
+        }
+  
+  
+  /* GALAXY FOLD */
+        @media only screen and  (max-width: 280px) {
+          .container {
+            display: grid;
+            background-color: #333438;
+            grid-template: 1100px 1600px 700px / auto auto auto ;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 "
+              "a3 a3 a3 a3 a3 "
+              "a2 a2 a2 a2 a2 ";
+          }
+          
+          
+           /* Grid 1 */
+           .textos_primeirogrid{
+             margin-top: px;
+             margin-left: -35%;
+           }
+           .para_casa{
+             max-width: 200px;
+             font-size: 18px;
+           }
+           /* Grid 2 */
+           .section_info{
+            height: 700px;
+             width: 280px;
+          }
+        
+      
+        }
+    
+    
+       

@@ -1,0 +1,281 @@
+html, body {
+  position:relative;
+  overflow-x:hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("../Axiforma/Axiforma-Regular.otf") format("opentype");
+}
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: "Axiforma";
+}
+/* cabeçalho */
+
+.servi:visited {
+  color: #79C44F;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+ 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  height: 20vh;
+}
+
+main {
+  background: url("bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: black;
+  margin: 8px;
+  transition: 0.3s;
+}
+/* grid 1 */
+.textos_primeirogrid{
+  display: inline-block;
+}
+.h1Tabela{  
+ 
+  font-size: 3rem; 
+  width: 400px;
+  margin-top: 100px;
+  margin-left:25%;
+
+}
+.para_casa{
+  margin-top: 120px;
+  margin-left: 50%;
+  text-align: left;
+  width: 500px;
+  position: absolute;
+}
+
+
+.linhaTa {
+  display: none;
+  border: 2px solid black;
+  position: absolute;
+  width: 300px;
+  height: 10px;
+  margin-left: 3%;
+  margin-top: 390px;
+}
+
+/* Grid 2 */
+.section_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 700px;
+  background-color: rgb(197, 196, 196);
+  color: black;
+}
+.titulo_txsofa{
+  font-size: 2rem;
+}
+.textos_sofa{
+  
+ text-align: left;
+}
+
+/* grid 3 */
+.ter_economia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 125px;
+  margin-left: 0%;
+  font-size: 2.5rem;
+}
+.todos_textos{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+}
+
+.quadrados_economia{
+  /* margin-top: 150px;
+ text-align: center;
+ color:#f2f2f2; */
+ box-shadow: 5px 5px 10px ;
+ height: 400px;
+ width: 300px;
+}
+
+/* grid 4 */
+
+.squareT {
+  border: 2px solid black;
+  position: absolute;
+  width: 5px;
+  height: 150px;
+  margin-left: 84%;
+  margin-top: 125px;
+}
+
+
+
+.frase {
+display: none;
+  font-size: 1.5rem;
+  color: #5C5C5C;
+  text-align: left;
+  width: auto;
+  height: 400px;
+  margin-top: 400px;
+  margin-left: 5%;
+}
+
+.squareT2 {
+  border: 2px solid black;
+  position: absolute;
+  width: 5px;
+  height: 150px;
+  margin-left: 13%;
+  margin-top: 125px;
+}
+
+
+
+/* grids all forms*/
+.container {
+  display: grid;
+  background-color: #333438;
+  grid-template: 800px 800px 700px / auto auto auto ;
+  grid-template-areas:
+    "a1 a1 a1 a1 a1 "
+    "a3 a3 a3 a3 a3 "
+    "a2 a2 a2 a2 a2 ";
+}
+
+:root {
+  --var-color: #f2f2f2;
+  --var-color2: black;
+}
+
+.r1 {
+  grid-area: a1;
+  /* background-color: var(--var-color); */
+  box-shadow: inset 0px 0px 0px 400px rgba(54, 26, 26, 0.2);
+    color: black;
+    background-image: url('../fotos/Adobe_interiorwhite.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-position-x: right;
+}
+
+.r2 {
+ 
+  grid-area: a2;
+  background-color: #EDEDED;
+  box-shadow: inset 0px 0px 0px 600px rgba(54, 26, 26, 0.1);
+  background-image: url('../fotos/Adobe_casalado.jpeg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.r3 {
+  grid-area:a3;
+  background-color: #EDEDED;
+  color: #333438;
+/* 
+  box-shadow: inset 0px 0px 0px 600px rgba(54, 26, 26, 0.4);
+  color: white;
+  background-image: url('../fotos/Adobe_2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size: cover;
+  background-position-x: left; */
+
+}
+
+.r4 {
+  display: none;
+  grid-area: a4;
+  background-color: var(--var-color);
+}
+
+.r5 {
+  display: none;
+  grid-area: a5;
+  background-color: var(--var-color);
+}
+
+/* end */
+
+.end {
+  display: none;
+  color: #f2f2f2;
+  background-color: #365b6d;
+  padding: 50px;
+  text-align: center;
+}
+
+#copyright{
+  font-size: 13px;
+}

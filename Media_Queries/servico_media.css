@@ -1,0 +1,192 @@
+
+
+
+@media only screen and  (max-width: 1030px) {
+  /* Grid 1 */
+  .textos_primeirogrid{
+    margin-left: -25%;
+    transition: ease all .5s;
+
+  }
+  .h1Tabela{
+    display: none;
+  }
+  /* Ultimo grid */
+.frase{
+  margin-top: 0;
+    text-align: left ;
+}
+}
+@media only screen and  (max-width: 1010px) {
+  .container {
+    display: grid;
+    background-color: #333438;
+    grid-template: 800px 800px 700px / auto auto auto ;
+    grid-template-areas:
+      "a1 a1 a1 a1 a1 "
+      "a3 a3 a3 a3 a3 "
+      "a2 a2 a2 a2 a2 ";
+  }
+}  
+@media only screen and  (max-width: 904px) {
+  .container {
+    display: grid;
+    background-color: #333438;
+    grid-template: 800px 1200px 700px / auto auto auto ;
+    grid-template-areas:
+      "a1 a1 a1 a1 a1 "
+      "a3 a3 a3 a3 a3 "
+      "a2 a2 a2 a2 a2 ";
+  }
+}
+
+@media only screen and  (max-width: 700px) {
+ /* Grid 1 */
+ .textos_primeirogrid{
+  margin-left: -30%;
+  transition: ease all .5s;
+
+}
+/* Ultimo grid */
+.frase{
+  margin-top: 0;
+    text-align: left ;
+}
+}
+@media only screen and  (max-width: 655px) {
+ /* Grid 1 */
+ .textos_primeirogrid{
+  margin-left: -35%;
+  transition: ease all .5s;
+
+}
+/* Ultimo grid */
+.frase{
+  margin-top: 0;
+    text-align: left ;
+}
+}
+@media only screen and  (max-width: 619px) {
+  .container {
+    display: grid;
+    background-color: #333438;
+    grid-template: 800px 1600px 700px / auto auto auto ;
+    grid-template-areas:
+      "a1 a1 a1 a1 a1 "
+      "a3 a3 a3 a3 a3 "
+      "a2 a2 a2 a2 a2 ";
+  }
+  
+  
+    /* Grid 1 */
+ .textos_primeirogrid{
+  margin-left: -40%;
+  transition: ease all .5s;
+
+}
+/* Grid 2 */
+
+.ter_economia{
+  font-size: 25px;
+}
+.todos_textos{
+  flex-direction: column;
+  font-size: 15px;
+}
+.frase{
+  margin-left: 10%;
+  transition: ease all .5s;
+ max-width: 500px;
+ margin-top: 0;
+    text-align: left ;
+}
+  }
+  @media only screen and  (max-width: 570px) {
+    .frase{
+      margin-left: 15%;
+      transition: ease all .5s;
+     max-width: 400px;
+     margin-top: 0;
+    text-align: left ;
+    }
+  }
+
+  @media only screen and  (max-width: 550px) {
+       /* Grid 1 */
+       .para_casa{
+        margin-left: 50%;
+         max-width: 400px;
+      
+      }
+      /* Grid 2 */
+
+.ter_economia{
+  transition: ease all .5s;
+
+}
+.todos_textos{
+  margin-left:  2.5%;
+  transition: ease all .5s;
+}
+  .frase{
+    margin-left: 15%;
+    margin-top: 150px;
+    text-align: left ;
+  }
+
+  }
+
+
+
+
+
+
+  @media only screen and  (max-width: 1105px) {
+    .nav-list {
+      position: absolute;
+      top: 10vh;
+      right: 0;
+      width: 50vw;
+      height: 70vh;
+      background: #d2d2d2;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+      z-index: 1;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+ }
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}

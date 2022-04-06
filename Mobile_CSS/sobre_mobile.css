@@ -1,0 +1,160 @@
+/* IPHONE XR */
+@media only screen and  (max-width: 414px) {
+    .container {
+        display: grid;
+        background-color: #333438;
+        grid-gap: 0px;
+        grid-template: 896px    /  auto;
+        grid-template-areas:
+          "a1 a1 a1 a1 a1 a1"
+          ;
+      }
+     
+       .textos_sobre{
+        margin-left: 10%;
+        transition: ease all .5s;
+    
+      }
+
+   
+    }
+    /* S20 ULTRA */
+    @media only screen and  (max-width: 412px) {
+        .container {
+            display: grid;
+            background-color: #333438;
+            grid-gap: 0px;
+            grid-template: 915px   / auto;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 a1"
+              ;
+          }
+        .textos_sobre{
+          font-size: 1rem;
+          margin-left: 8%;
+          transition: ease all .5s;
+      
+        }
+    
+    }
+    /* PIXEL 5 */
+      @media only screen and  (max-width: 393px) {
+        .container {
+            display: grid;
+            background-color: #333438;
+            grid-gap: 0px;
+            grid-template: 851px   / auto;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 a1"
+              ;
+          }
+        .textos_sobre{
+          font-size: 1rem;
+          margin-left: 6%;
+          transition: ease all .5s;
+      
+        }
+      }
+    
+    /* IPHONE 12 PRO */
+    @media only screen and  (max-width: 390px) {
+        .container {
+            display: grid;
+            background-color: #333438;
+            grid-gap: 0px;
+            grid-template: 844px   / auto;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 a1"
+              ;
+          }
+        .textos_sobre{
+          font-size: 1rem;
+          margin-left: 7%;
+          transition: ease all .5s;
+      
+        }
+    }
+    
+    /* IPHONE SE */
+      @media only screen and  (max-width: 375px) {
+        .container {
+            display: grid;
+            background-color: #333438;
+            grid-gap: 0px;
+            grid-template: 667px   / auto;
+            grid-template-areas:
+              "a1 a1 a1 a1 a1 a1"
+              ;
+          }
+      .textos_sobre{
+          margin-top: 50px;
+        font-size: 1rem;
+        margin-left: 8%;
+        transition: ease all .5s;
+    
+      }
+     .motivos_avi{
+        width: 340px;
+      }
+      
+      
+      }
+      /* S8 */
+        @media only screen and  (max-width: 360px) {
+            .container {
+                display: grid;
+                background-color: #333438;
+                grid-gap: 0px;
+                grid-template: 740px   / auto;
+                grid-template-areas:
+                  "a1 a1 a1 a1 a1 a1"
+                  ;
+              }
+            .textos_sobre{
+              font-size: 1rem;
+              margin-left: 5%;
+              transition: ease all .5s;
+          
+            }
+        }
+        /* GALAXY FOLD */
+        @media only screen and  (max-width: 280px) {
+            .container {
+                display: grid;
+                background-color: #333438;
+                grid-gap: 0px;
+                grid-template: 1500px   / auto;
+                grid-template-areas:
+                  "a1 a1 a1 a1 a1 a1"
+                  ;
+              }
+            .textH{
+                font-size: 22px;
+                margin-left: -10%;
+    
+            }
+            .motivos_AVI{
+                font-size: 15px;
+                max-width: 260px;
+                margin-left: 6%;
+    
+    
+            }
+            .visao{
+                margin-left: -58%;
+            }
+            .visao_texto{
+                font-size: 15px;
+                max-width: 250px;
+                margin-left: 6%;
+    
+            }
+            .missao{
+                margin-left: -50%;
+            }
+            .missao_texto{
+                font-size: 15px;
+                max-width: 250px;
+                margin-left: 6%;
+            }
+          }
