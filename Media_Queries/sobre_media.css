@@ -18,12 +18,12 @@
   }
 }
 
-@media only screen and  (max-width: 1600px) {
+@media only screen and  (max-width: 1536px) {
   .container {
     display: grid;
     background-color: #333438;
     grid-gap: 0px;
-    grid-template: 695px   / auto;
+    grid-template: 700px   / auto;
     grid-template-areas:
       "a1 a1 a1 a1 a1 a1"
       ;
