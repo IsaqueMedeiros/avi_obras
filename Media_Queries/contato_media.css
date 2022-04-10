@@ -23,7 +23,7 @@
   display: grid;
   background-color: #333438;
   grid-gap: 2px 2px;
-  grid-template: 700px/ auto;
+  grid-template: 800px/ auto;
   grid-template-areas:
     "a2 a2 a2 a2 a2";
 }
