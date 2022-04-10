@@ -15,16 +15,7 @@ body{
     
   }
 }
-@media only screen and  (max-width: 1600px) {
 
-  .luxury_house{
-    width:500px;
-  }
-  .textos_deorçamento{
-      margin-left:40.5%;
-    
-  }
-}
 @media only screen and  (max-width: 1366px) {
   .imagem_informativo{
     margin-left: 40.5%;
