@@ -26,6 +26,15 @@
   grid-template-areas:
     "a2 a2 a2 a2 a2";
 }
+    .formCo {
+  margin-top: 85px;
+
+}
+.instruçãoC {
+ 
+  margin-top: 10vh;
+
+}
 }
 @media only screen and  (max-width: 1366px) {
 
