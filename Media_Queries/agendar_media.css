@@ -10,6 +10,16 @@
   }
 
 }
+@media only screen and  (max-width: 1536px) {
+  .container {
+    display: grid;
+    background-color: #333438;
+    grid-template: 850px / 2fr;
+    grid-template-areas:
+      "a1 a1"
+      "a1 a1";
+  }
+}
 @media only screen and  (max-width: 1366px) {
   .container {
     display: grid;
