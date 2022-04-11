@@ -21,7 +21,7 @@
 .container {
   display: grid;
   background-color: #333438;
-  grid-template: 900px/ auto;
+  grid-template: 960px/ auto;
   grid-template-areas:
     "a2 a2 a2 a2 a2";
 }
