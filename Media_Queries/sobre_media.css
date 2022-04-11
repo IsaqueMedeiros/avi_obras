@@ -23,7 +23,7 @@
     display: grid;
     background-color: #333438;
     grid-gap: 0px;
-    grid-template: 900px   / auto;
+    grid-template: 960px   / auto;
     grid-template-areas:
       "a1 a1 a1 a1 a1 a1"
       ;
